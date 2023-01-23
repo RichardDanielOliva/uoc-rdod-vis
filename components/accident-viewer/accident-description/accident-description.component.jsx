@@ -22,7 +22,7 @@ const AccidentDescription = ({ data }) => {
         </div>
         <div>
         La información acerca de los accidentes proviene del siguiente <a target="_blank" href='https://data.europa.eu/data/datasets/https-kod-brno-cz-nkod-dataset-fa9235bbface40f6965be985f0f073ac_0-ttl?locale=es'>dataset</a>. 
-        La densidad poblacional se calcula en base a la <a target="_blank" href='https://datahub.brno.cz/datasets/p%C5%99%C3%ADtomn%C3%A9-obyvatelstvo-dle-dat-mobiln%C3%ADho-oper%C3%A1tora-number-of-people-based-of-mobile-phone-usage'>estimación del número de persona de acuerdo con el uso del móvil</a> para el día XX a las XX. 
+        La densidad poblacional se calcula en base a la <a target="_blank" href='https://datahub.brno.cz/datasets/p%C5%99%C3%ADtomn%C3%A9-obyvatelstvo-dle-dat-mobiln%C3%ADho-oper%C3%A1tora-number-of-people-based-of-mobile-phone-usage'>estimación del número de persona de acuerdo con el uso del móvil</a> para el día 2021/11/07 a las 17:00-17:59. 
         Los datos del <a target="_blank" href='https://datahub.brno.cz/maps/po%C4%8Det-osob-na-adresn%C3%ADch-m%C3%ADstech-number-of-people-living-at-the-adresses'>número de personas por dirección de residencia</a> se utilizan para generar un heatmap.
         </div>
         <div>
