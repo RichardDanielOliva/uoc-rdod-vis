@@ -26,7 +26,7 @@ const AccidentDescription = ({ data }) => {
         Los datos del <a target="_blank" href='https://datahub.brno.cz/maps/po%C4%8Det-osob-na-adresn%C3%ADch-m%C3%ADstech-number-of-people-living-at-the-adresses'>número de personas por dirección de residencia</a> se utilizan para generar un heatmap.
         </div>
         <div>
-          Este proyecto corresponde a la PR2 de la asignatura 22.531 Visualización de datos de la Universitat Oberta de Catalunya. La licencia es open source y código del proyecto se encuentra en <a target="_blank" href='https://github.com/RichardDanielOliva/uoc-rdod-vis'>Github</a>.
+          Este proyecto corresponde a la PR2 de la asignatura 22.531 Visualización de datos de la Universitat Oberta de Catalunya (UOC). La licencia es open source y código del proyecto se encuentra en <a target="_blank" href='https://github.com/RichardDanielOliva/uoc-rdod-vis'>Github</a>.
         </div>
       </ChartDescription>
     </CardContainer>

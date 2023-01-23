@@ -17,5 +17,5 @@ export const AVAILABLE_ADDITIONAL_LAYERS = {
   NONE: "Ninguna", 
   //CICLOVIAS: "Ciclovia", 
   DENSIDAD_POBLACIONAL: "Densidad poblacional",
-  LIVING_ADDRESS: "Número de personas en las direcciones"
+  LIVING_ADDRESS: "Número de personas por dirección de residencia"
 }
