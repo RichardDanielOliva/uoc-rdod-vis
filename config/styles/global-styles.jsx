@@ -31,6 +31,15 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
+    font-family: 'Poppins';
+  }
+
+  * {
+  font-family: 'Poppins' !important;
+  }
+
+  .MuiButtonBase-root{
+    font-weight: 900 !important;
   }
 
   code {
@@ -40,7 +49,7 @@ const GlobalStyle = createGlobalStyle`
 
   @font-face {
     font-family: 'Poppins','futura-lt-w01-book';
-    src: local('FuturaLT-Book'), url("/fonts/FuturaLT/FuturaLT-Book.ttf") format('truetype');
+    src: local('Poppins-Light'), url("/fonts/Poppins/Poppins-Light.ttf") format('truetype');
   }
   
   *, *:before, *:after {

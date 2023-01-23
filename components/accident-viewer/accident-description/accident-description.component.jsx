@@ -12,19 +12,21 @@ const AccidentDescription = ({ data }) => {
     <CardContainer>
       <ChartDescription>
         <div>
-          Al seleccionar un accidente dentro del mapa se muestra la información asociada.
+          Al seleccionar un accidente se muestra la información asociada.
         </div>
-        <br />
         <div>
           Dentro de la sección de filtros es posible limitar los resultados de acuerdos de diferentes temáticas.
         </div>
-        <br />
         <div>
-          En el apartado de capas es posible ajustar la representación del mapa, puedo cambiar el fondo o diferencias los accidentes por su contenido. Además, se dispone una serie de capas adicionales para añadir información extra y expandir el análisis.
+          En el apartado de capas es posible ajustar la representación del mapa, puedo cambiar el fondo, diferenciar los accidentes por su contenido o añadir capas adicionales para expandir el análisis.
         </div>
-        <br />
         <div>
-          Este proyecto corresponde a la PR2 de la asignatura XX de la Universitat Oberta de Catalunya. El la licencias es open source y código del proyecto se encuentra en XX.
+        La información acerca de los accidentes proviene del siguiente <a target="_blank" href='https://data.europa.eu/data/datasets/https-kod-brno-cz-nkod-dataset-fa9235bbface40f6965be985f0f073ac_0-ttl?locale=es'>dataset</a>. 
+        La densidad poblacional se calcula en base a la <a target="_blank" href='https://datahub.brno.cz/datasets/p%C5%99%C3%ADtomn%C3%A9-obyvatelstvo-dle-dat-mobiln%C3%ADho-oper%C3%A1tora-number-of-people-based-of-mobile-phone-usage'>estimación del número de persona de acuerdo con el uso del móvil</a> para el día XX a las XX. 
+        Los datos del <a target="_blank" href='https://datahub.brno.cz/maps/po%C4%8Det-osob-na-adresn%C3%ADch-m%C3%ADstech-number-of-people-living-at-the-adresses'>número de personas por dirección de residencia</a> se utilizan para generar un heatmap.
+        </div>
+        <div>
+          Este proyecto corresponde a la PR2 de la asignatura 22.531 Visualización de datos de la Universitat Oberta de Catalunya. La licencia es open source y código del proyecto se encuentra en <a target="_blank" href='https://github.com/RichardDanielOliva/uoc-rdod-vis'>Github</a>.
         </div>
       </ChartDescription>
     </CardContainer>

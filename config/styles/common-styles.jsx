@@ -85,7 +85,7 @@ export const cH5 = css`
   margin: 0;
   padding: 0;
   @media only screen and (min-width: 891px) {
-    font-size: 15px;
+    font-size: 14px;
   };
   @media only screen and (max-width: 891px) {
     font-size: 14px;

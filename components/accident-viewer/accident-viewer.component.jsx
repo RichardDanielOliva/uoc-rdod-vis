@@ -32,10 +32,10 @@ const AccidentViewer = ({ baseLayer, additionalLayer }) => {
         additionalLayer={additionalLayer}
         />
       <CardContentContainer>
-        <ChartTitle>Accidentes de bicicleta en Brno</ChartTitle>
+        <ChartTitle>Accidentes de ciclismo en Brno</ChartTitle>
         <ChartDescription>
         <div>
-          Se presenta un mapa interactivo donde se pueden visualizar los accidentes de bicicletas ocurridos en la ciudad de Brno, en República Checa .
+          Mapa interactivo con los accidentes de ciclismo ocurridos en la ciudad de Brno, en República Checa.
         </div>
       </ChartDescription>
         <TabsContainer>

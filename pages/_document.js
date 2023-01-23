@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
             rel="preload"
             as="font"
             crossOrigin=""
-            href={"/fonts/FuturaLT/FuturaLT-Book.ttf"}
+            href={"/fonts/Poppins/Poppins-Light.ttf"}
           />
           <link rel="stylesheet" href="https://unpkg.com/react-vis/dist/style.css" />
           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 
         </Head>
         <body>

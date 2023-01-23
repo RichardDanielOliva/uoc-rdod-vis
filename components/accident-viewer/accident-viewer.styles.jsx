@@ -71,6 +71,19 @@ export const ChartSubTitle = styled.h3`
 export const ChartDescription = styled.div`
   width: 100%;
   text-align:center;
+
+  & div{
+    margin-bottom: 15px;
+  }
+
+  & a {
+    color: black;
+    font-weight: 550;
+  }
+
+  & div:last-child {
+    margin-bottom: 0;
+  }
 `;
 
 export const ChartContentContainer = styled.div`
